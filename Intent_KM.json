@@ -11,14 +11,14 @@
           "Selamat Malam"
         ],       
         "responses": [
-          "Halo, ada yang bisa saya bantu?",
-          "Halo, selamat datang",
-          "Hai, salam kenal",
-          "Halo, apakah ada yang bisa dibantu?",
-          "Hola, salam kenal, apakah ada yang bisa saya bantu",
-          "Hola, selamat datang di platform kami"
+          "Hai, ada yang bisa saya bantu?",
+          "Hi, selamat datang",
+          "Halo, salam kenal",
+          "selamat pagi, apakah ada yang bisa dibantu?",
+          "selamat siang, salam kenal, apakah ada yang bisa saya bantu",
+          "selamat malam, selamat datang di platform kami"
         ],
-        "context": [""]
+        "context": ["salam"]
       },
 
       {
@@ -38,7 +38,7 @@
           "Sampai jumpa! Jangan lupa, kami di sini siap membantu Anda kapan pun Anda membutuhkan.",
           "Terima kasih telah menggunakan bapeda kami. Sampai jumpa di kesempatan berikutnya!"
         ],
-        "context": [""]
+        "context": ["goodbye"]
       },
 
       {
@@ -59,7 +59,7 @@
           "Terima kasih juga! Kami senang bisa memberikan bantuan yang kamu butuhkan. Jangan sungkan untuk menghubungi kami jika ada yang perlu ditanyakan.",
           "Terima kasih kembali! Jangan sungkan untuk mengajukan pertanyaan lainnya jika ada yang perlu kamu ketahui."
         ],
-        "context": [""]
+        "context": ["thanks"]
       },
   
       {
@@ -86,7 +86,7 @@
           "Hola, Nama saya adalah Bapeda bot. Saya hadir untuk membantu Anda. Apa yang bisa saya lakukan untukmu hari ini?",
           "Nama saya adalah Bapeda bot. Bagaimana saya bisa membantu Anda hari ini?" 
         ],
-        "context": [""]
+        "context": ["nama"]
       },
   
       {
@@ -106,7 +106,7 @@
           "Fungsi utama saya, Bapeda Bot, adalah memberikan informasi seperti jenis batik, sejarah batik, cara membuat batik, dan lain sebagainya.",
           "Saya adalah Bapeda Bot yang siap memberikan informasi, petunjuk, dan dukungan terkait jenis batik, sejarah batik, cara membuat batik, dan lain sebagainya."
         ],
-        "context": [""]
+        "context": ["fungsi"]
       },
   
       {
@@ -127,7 +127,7 @@
           "Batik adalah seni tradisional Indonesia yang menghasilkan berbagai macam motif dan desain, seperti batik ikat celup, batik insang, batik dayak, dan banyak lagi.",
           "Jenis batik yang paling banyak diminati bisa berbeda-beda tergantung pada preferensi dan budaya setiap daerah di Indonesia."
         ],
-        "context": [""]
+        "context": ["jenis_batik"]
       }, 
 
       {
@@ -144,7 +144,7 @@
           "Untuk membuat batik, Anda memerlukan kain putih, lilin batik, cetakan malam, alat pewarna, dan kuas. Pertama-tama, desain motif batik pada kain dengan menggunakan lilin batik. Kemudian, gunakan alat pewarna dan kuas untuk memberikan warna pada kain sesuai dengan desain yang diinginkan. Setelah itu, biarkan kain mengering dan proses fixing untuk mengunci warna batik tersebut.",
           "Cara membuat batik dimulai dengan menyiapkan kain putih, lilin batik, cetakan malam, dan pewarna batik. Pertama-tama, desainlah motif pada kain menggunakan lilin batik. Kemudian, pewarna batik dapat diaplikasikan pada kain sesuai dengan desain yang telah dibuat. Setelah pewarnaan selesai, biarkan kain mengering dan lakukan proses fixing agar warna batik lebih tahan lama."  
         ],
-        "context": [""]
+        "context": ["buat_batik"]
       },
 
       {
@@ -161,7 +161,7 @@
           "Batik asli memiliki nilai historis dan kultural yang tinggi, sementara batik palsu cenderung memiliki nilai yang lebih rendah dan dihasilkan secara massal.",
           "Untuk mengetahui apakah batik yang Anda beli asli atau palsu, perhatikan kualitas dan detail motifnya. Batik asli biasanya memiliki ketelitian dan kehalusan dalam motif yang sulit dihasilkan dalam batik palsu yang diproduksi secara massal."
         ],
-        "context": [""]
+        "context": ["beda_batik"]
       },
 
       {
@@ -178,7 +178,7 @@
             "Tentu saja! Saya dilengkapi dengan kemampuan untuk mengenali dan mendeteksi jenis batik. Silakan berikan informasi atau gambar batik yang ingin Anda identifikasi.",
             "Ya, saya memiliki kemampuan untuk mengenali dan mendeteksi jenis batik. Jika Anda memberikan gambar atau deskripsi batik, saya akan berusaha mengklasifikasikannya untuk Anda."
         ],
-        "context": [""]
+        "context": ["deteksi"]
       },
       {
         "tag": "model",
@@ -192,7 +192,7 @@
           "Teknologi yang digunakan untuk mengenali jenis batik dapat melibatkan pengolahan citra dan pemrosesan data. teknik seperti ekstraksi fitur menggunakan Convolutional Neural Networks (CNN).",
           "Deteksi jenis batik dapat menggunakan pendekatan Machine Learning dengan algoritma-algoritma seperti Convolutional Neural Networks (CNN) yang efektif dalam mengenali pola pada gambar."
         ],
-        "context": [""]
+        "context": ["model"]
       },
       
       {
@@ -203,7 +203,7 @@
         "responses": [
           "CNN adalah Convolutional Neural Network, yaitu salah satu jenis algoritma Deep Learning yang digunakan dalam pengolahan citra dan visualisasi."
         ],
-        "context": [""]
+        "context": ["cnn"]
       },
       {
         "tag": "salah_deteksi_jenis_batik",
@@ -219,7 +219,7 @@
           "Meskipun saya memiliki kemampuan untuk mendeteksi banyak jenis batik, namun tidak dapat dijamin bahwa saya dapat mendeteksi semua jenis batik. Terkadang, batik dengan pola yang sangat langka atau khas daerah tertentu mungkin sulit untuk saya identifikasi dengan sempurna.",
           "Saya berusaha untuk mendeteksi berbagai jenis batik, namun tidak dapat menjamin bahwa saya dapat mendeteksi semua jenis batik. Terkadang, batik dengan pola yang jarang atau tidak umum dapat menyebabkan kesalahan dalam deteksi."
         ],
-        "context": [""]
+        "context": ["salah_deteksi_jenis_batik"]
       },
       {
         "tag": "manfaat_batik",
@@ -234,7 +234,7 @@
           "Batik merupakan simbol identitas dan kebanggaan bangsa. Memakai batik adalah cara yang baik untuk menunjukkan cinta dan apresiasi terhadap budaya Indonesia.",
           "Batik sangat penting karena dipercaya memiliki nilai artistik dan estetika yang tinggi. Memakai batik dapat meningkatkan kepercayaan diri dan memberikan kesan yang berbeda dalam penampilan Anda"
         ],
-        "context": [""]
+        "context": ["manfaat_batik"]
       },
       
       {
@@ -253,7 +253,7 @@
           "Batik Priangan merupakan jenis batik yang berasal dari daerah Priangan, Jawa Barat. Batik ini memiliki motif dan corak yang unik, menggambarkan kearifan lokal serta keindahan alam dan budaya Priangan.",
           "Untuk mengenali batik Priangan, Anda dapat melihat pola dan motif yang khas. Biasanya, batik Priangan memiliki motif alam, flora, fauna, serta unsur-unsur budaya dan tradisi masyarakat Priangan."    
         ],
-        "context": [""]
+        "context": ["Batik_Priangan"]
       },
 
       {
@@ -272,7 +272,7 @@
           "Batik Dayak adalah jenis batik yang berasal dari suku Dayak di Kalimantan. Batik ini memiliki motif dan corak yang mencerminkan budaya, tradisi, dan keindahan alam yang dihormati oleh suku Dayak.",
           "Untuk mengenali batik Dayak, Anda dapat melihat pola dan motif yang khas. Biasanya, batik Dayak memiliki gambar-gambar simbolik yang menggambarkan kehidupan suku Dayak, seperti binatang, tanaman, atau simbol-simbol mitologis."
         ],
-        "context": [""]
+        "context": ["Batik_Dayak"]
       },
 
       {
@@ -291,7 +291,7 @@
           "Batik Garutan merupakan batik tradisional yang berasal dari Garut, Jawa Barat. Batik ini ditandai dengan motif dan corak yang terinspirasi oleh kebudayaan Garut, seperti motif tumbuhan, hewan, dan budaya lokal.",
           "Untuk mengenali batik Garutan, Anda dapat melihat pola dan motifnya yang khas. Biasanya, batik Garutan memiliki kombinasi warna yang cerah dan motif-motif yang terinspirasi oleh alam, flora, fauna, serta tradisi dan kearifan lokal masyarakat Garut."
         ],
-        "context": [""]
+        "context": ["Batik_Garutan"]
       },
       {
         "tag": "Batik_Keraton",
@@ -309,7 +309,7 @@
           "Batik Keraton merupakan batik yang berkaitan dengan kebudayaan dan tradisi istana Keraton di Jawa. Batik ini ditandai dengan motif dan corak yang terinspirasi oleh seni dan budaya istana, serta memiliki keanggunan dan kesan kerajaan.",
           "Untuk mengenali batik Keraton, Anda dapat memperhatikan pola dan motifnya yang khas. Batik Keraton sering menggunakan motif yang terinspirasi oleh simbol-simbol kebangsawanan, seperti motif bunga, binatang, geometris, serta pola-pola yang berkaitan dengan kehidupan di dalam istana Keraton."
         ],
-        "context": [""]
+        "context": ["Batik_Keraton"]
       },
       {
         "tag": "Batik_Sogan",
@@ -327,7 +327,7 @@
           "Batik Sogan merupakan batik yang menggunakan bahan pewarna alami berwarna sogan. Batik ini ditandai dengan pola dan motif yang elegan, sering kali terinspirasi oleh motif-motif tradisional Jawa.",
           "Untuk mengenali batik Sogan, Anda dapat melihat kecenderungan warna dominan yang memiliki nuansa sogan atau cokelat keemasan. Selain itu, batik Sogan juga memiliki motif dan corak yang elegan, khas, dan seringkali berkaitan dengan kebudayaan dan tradisi Jawa."
         ],
-        "context": [""]
+        "context": ["Batik_Sogan"]
       },
       {
         "tag": "Batik_Kawung",
@@ -345,7 +345,7 @@
           "Batik Kawung adalah jenis batik yang memiliki pola-pola geometris berbentuk lingkaran kecil yang berulang. Motif ini sering diartikan sebagai simbol kesuburan dan kehidupan yang sejahtera.",
           "Batik Kawung adalah salah satu motif batik tradisional yang berasal dari Jawa. Motifnya terdiri dari lingkaran kecil yang tersusun rapi dan melambangkan biji-bijian, kesuburan, serta kehidupan yang harmonis."
         ],
-        "context": [""]
+        "context": ["Batik_Kawung"]
       },
       {
         "tag": "Batik_Sidoluhur",
@@ -363,7 +363,7 @@
           "Batik Sidoluhur memiliki keunikan dalam corak dan motifnya yang terinspirasi dari kearifan lokal Jawa. Motif-motif yang digunakan menggambarkan cerita, simbol budaya, dan nilai-nilai kehidupan yang tercermin dalam karya seni batik ini.",
           "Batik Sidoluhur adalah bentuk seni batik tradisional yang menggambarkan keindahan budaya dan kearifan lokal Jawa. Setiap motif dan corak pada batik ini memiliki makna dan cerita tersendiri yang memberikan pemahaman mendalam tentang kehidupan dan warisan budaya yang kaya."
         ],
-        "context": [""]
+        "context": ["Batik_Sidoluhur"]
       },
       {
         "tag": "Batik_Lasem",
@@ -381,7 +381,7 @@
           "Batik Lasem merupakan jenis batik yang berasal dari kota Lasem, Jawa Tengah. Batik ini memiliki ciri khas dengan motif yang menggabungkan warisan budaya Tionghoa dan Jawa. Biasanya, batik Lasem ditandai dengan corak yang rumit dan warna-warna yang cerah.",
           "Rincian batik Lasem terdiri dari beragam motif dan corak yang menggabungkan elemen-elemen budaya Tionghoa dan Jawa. Beberapa motif yang sering ditemui adalah naga, burung phoenix, dan bunga teratai. Batik Lasem juga dikenal dengan warna-warna yang cerah dan cerita yang terkandung dalam setiap motifnya."
         ],
-        "context": [""]
+        "context": ["Batik_Lasem"]
       },
       {
         "tag": "Batik_Sekar",
@@ -399,7 +399,7 @@
           "Batik Sekar Jagad adalah salah satu bentuk seni kain tradisional dari Yogyakarta. Batik ini memiliki keunikan dengan motif-motif yang rumit dan beragam, menggambarkan keindahan alam dan kehidupan sekitar. Warna-warna cerah dan kombinasi yang harmonis menjadi ciri khas batik Sekar Jagad.",
           "Rincian batik Sekar Jagad mencakup berbagai motif yang terinspirasi oleh alam dan kehidupan sehari-hari. Anda akan menemukan corak bunga, daun, burung, dan hewan lainnya dalam batik ini. Batik Sekar Jagad juga dikenal dengan teknik pembatikannya yang detail dan warna-warna yang cerah, menciptakan karya seni yang memukau."
         ],
-        "context": [""]
+        "context": ["Batik_Sekar"]
       },
       {
         "tag": "Batik_Parang",
@@ -417,7 +417,7 @@
           "Batik Parang adalah salah satu jenis batik yang terkenal di Indonesia. Batik ini ditandai dengan motif parang-parang yang menggambarkan garis-garis zigzag atau bentuk segi empat. Motif ini melambangkan keberanian dan kekuatan dalam kehidupan sehari-hari.",
           "Rincian batik Parang mencakup motif-motif parang-parang yang terdiri dari garis-garis zigzag atau bentuk segi empat. Batik ini menggambarkan keberanian, kestabilan, dan kekuatan. Warna-warna yang umum digunakan dalam batik Parang adalah merah, hitam, dan putih. Mengenali batik Parang dapat dilakukan dengan memperhatikan motif khasnya yang mencolok dan unik."
         ],
-        "context": [""]
+        "context": ["Batik_Parang"]
       },
       {
         "tag": "Batik_Pekalongan",
@@ -435,7 +435,7 @@
           "Batik Pekalongan merupakan salah satu jenis batik tradisional dari Pekalongan, Jawa Tengah. Batik ini memiliki keunikan dengan corak yang beragam, terinspirasi oleh keindahan alam dan kehidupan sehari-hari. Warna-warna yang cerah dan motif yang khas membuat batik Pekalongan mudah dikenali.",
           "Rincian batik Pekalongan mencakup berbagai motif yang mencerminkan kekayaan budaya lokal. Anda akan menemukan motif bunga, daun, hewan, serta pola geometris yang khas. Batik Pekalongan juga dikenal dengan warna-warna cerah dan kombinasi yang harmonis. Mengenal batik Pekalongan dapat dilakukan dengan memperhatikan keberagaman motif dan sentuhan budaya yang terkandung di dalamnya."
         ],
-        "context": [""]
+        "context": ["Batik_Pekalongan"]
       },
       {
         "tag": "Batik_Megamendung",
@@ -453,7 +453,7 @@
           "Batik Megamendung memiliki ciri khas pola awan mendung yang berulang-ulang secara vertikal. Motif ini digambarkan dengan warna biru tua dan putih yang kontras, menciptakan kesan yang anggun dan elegan.",
           "Rincian batik Megamendung mencakup pola awan mendung yang terbentuk dari garis-garis melengkung yang saling berhubungan. Motif ini biasanya diterapkan pada kain dengan menggunakan teknik pembatikan tradisional, yang melibatkan proses pewarnaan bertahap dan penggunaan lilin sebagai bahan resisten."
         ],
-        "context": [""]
+        "context": ["Batik_Megamendung"]
       },
       {
         "tag": "Batik_Bali",
@@ -471,7 +471,7 @@
           "Batik Bali memiliki gaya yang khas dan beragam, mulai dari pola geometris yang rumit hingga gambaran figuratif yang lebih realistis. Warna-warnanya yang cerah dan kontras mencerminkan keceriaan dan kehidupan yang dinamis di Bali.",
           "Rincian batik Bali dapat mencakup berbagai motif seperti bunga, burung, binatang, atau gambaran pemandangan. Batik Bali juga dikenal dengan kehalusan dan kecermatan detailnya, yang menjadikannya sebagai karya seni yang sangat dihargai."
         ],
-        "context": [""]
+        "context": ["Batik_Bali"]
       },
       {
         "tag": "Batik_Ciamis",
@@ -489,7 +489,7 @@
           "Batik Ciamis adalah seni tekstil tradisional yang berkembang di daerah Ciamis. Motifnya terdiri dari ragam pola geometris, tumbuhan, binatang, atau simbol-simbol budaya yang melambangkan kearifan lokal.",
           "Batik Ciamis adalah jenis batik yang berasal dari Kabupaten Ciamis, Jawa Barat, Indonesia. Batik ini memiliki ciri khas motif yang terinspirasi oleh kekayaan budaya dan alam Ciamis."
         ],
-        "context": [""]
+        "context": ["Batik_Ciamis"]
       },
       {
         "tag": "Batik_Celup",
@@ -507,7 +507,7 @@
           "Rincian batik Celup terletak pada penggunaan teknik pencelupan yang beragam untuk menciptakan pola-pola dan warna yang indah. Proses pewarnaannya bisa dilakukan secara bertahap dengan mengendalikan durasi dan jumlah celupan untuk mendapatkan gradasi warna yang halus dan kompleks.",
           "Cara mengenal batik Celup adalah dengan memperhatikan motif yang dihasilkan oleh proses pencelupan. Anda dapat melihat variasi warna dan bentuk yang terbentuk pada kain, serta mengamati apakah terdapat pola-pola khas atau elemen kreatif dalam desain batik tersebut."
         ],
-        "context": [""]
+        "context": ["Batik_Celup"]
       },
       {
         "tag": "Batik_Poleng",
@@ -525,7 +525,7 @@
           "Rincian Batik Poleng mencakup pola kotak hitam dan putih yang diatur secara berulang-ulang. Pola ini melambangkan prinsip dualitas dalam kehidupan dan mengajarkan pentingnya mencari keseimbangan di antara kontras yang ada.",
           "Cara mengenal Batik Poleng adalah dengan memperhatikan motif kotak-kotak hitam dan putih yang khas. Motif ini biasanya terlihat jelas dan teratur, menciptakan tampilan yang kontras dan mencolok. Selain itu, penting juga untuk memahami makna filosofis yang terkait dengan batik ini untuk lebih mengenalinya secara menyeluruh."
         ],
-        "context": [""]
+        "context": ["Batik_Poleng"]
       },
       {
         "tag": "Batik_Betawi",
@@ -543,7 +543,7 @@
           "Batik Betawi memiliki corak yang kaya dan beragam, dengan kombinasi warna yang cerah dan kontras. Motifnya mencerminkan kehidupan dinamis dan keragaman budaya masyarakat Betawi.",
           "Rincian Batik Betawi melibatkan motif-motif yang khas seperti pemandangan kota, alam, atau gambaran dari tradisi dan kehidupan sosial masyarakat Betawi. Untuk mengenal Batik Betawi, Anda dapat memperhatikan ciri khas motifnya, serta mengetahui latar belakang budaya dan makna di balik setiap pola yang digambarkan."
         ],
-        "context": [""]
+        "context": ["Batik_Betawi"]
       },
       {
         "tag": "Batik_Pala",
@@ -561,7 +561,7 @@
           "Rincian Batik Pala mencakup motif buah pala yang tergambar dengan detail, serta pola-pola geometris yang berulang. Warna-warna yang digunakan dalam batik ini biasanya cerah dan kontras, menciptakan kesan yang menarik.",
           "Cara mengenal Batik Pala adalah dengan memperhatikan motif buah pala yang menjadi ciri khasnya. Anda juga dapat mengamati pola-pola geometris yang teratur dan warna-warna yang mencolok. Mengetahui latar belakang dan makna filosofis yang terkait dengan batik ini juga dapat membantu mengenalinya secara lebih mendalam."
         ],
-        "context": [""]
+        "context": ["Batik_Pala"]
       },
       {
         "tag": "batik_GeblekRentang",
@@ -579,7 +579,7 @@
           "Rincian Batik Geblek Rentang mencakup garis-garis yang terbentuk dengan detail dan keteraturan yang khas. Terdapat variasi pola dan warna yang bisa ditemui dalam batik ini, mencerminkan kekayaan kreativitas para perajin.",
           "Cara mengenal Batik Geblek Rentang adalah dengan memperhatikan motif garis-garis yang teratur dan simetris. Anda juga dapat mengamati kombinasi warna yang digunakan. Mengetahui asal-usul dan sejarah batik ini juga bisa membantu dalam mengenalinya secara lebih mendalam."
         ],
-        "context": [""]
+        "context": ["batik_GeblekRentang"]
       },
       {
         "tag": "batik_Tambal",
@@ -597,7 +597,7 @@
           "Rincian Batik Tambal terletak pada potongan-potongan kain yang disusun secara rapi dan diatur dengan hati-hati untuk menciptakan motif yang menarik. Setiap potongan kain bisa memiliki warna dan motif yang berbeda, namun tetap terlihat harmonis saat digabungkan.",
           "Cara mengenal Batik Tambal adalah dengan memperhatikan pola dan tampilan batik yang disusun dari potongan-potongan kain. Anda dapat mengamati variasi warna dan motif yang digunakan dalam batik ini, serta mengenali teknik penyatuan kain yang khas dalam pembuatannya."
         ],
-        "context": [""]
+        "context": ["batik_Tambal"]
       },
       {
         "tag": "batik_ikatCelup",
@@ -615,7 +615,7 @@
           "Rincian Batik ikat celup mencakup kerapian dan kerumitan dalam proses ikat dan celup. Setiap ikatan yang dibuat dengan teliti akan menghasilkan motif yang unik dan berbeda. Pewarnaan secara bertahap dengan mengendalikan intensitas celupan juga menjadi bagian penting dalam pembuatan batik ini.",
           "Cara mengenal Batik ikat celup adalah dengan memperhatikan pola-pola ikat yang terlihat jelas pada kain. Anda dapat mengamati pola garis-garis atau titik-titik yang terbentuk secara teratur. Mengetahui teknik ikat dan proses pencelupan yang digunakan juga akan membantu dalam mengenalinya secara lebih mendalam."
         ],
-        "context": [""]
+        "context": ["batik_ikatCelup"]
       },
       {
         "tag": "batik_insang",
@@ -633,7 +633,7 @@
           "Rincian Batik Insang mencakup pola sisik ikan atau insang yang terlihat jelas dan teratur pada kain. Anda dapat mengamati ukuran dan bentuk sisik yang dihasilkan, serta kombinasi warna yang digunakan untuk menciptakan tampilan yang menarik.",
           "Cara mengenal Batik Insang adalah dengan memperhatikan motif sisik ikan atau insang yang menjadi ciri khasnya. Anda juga dapat mengenali kehalusan dan kerapihan pola sisik yang terbentuk. Mengetahui latar belakang motif dan makna filosofis yang terkait dengan batik ini akan memberikan pemahaman yang lebih dalam mengenai Batik Insang."
         ],
-        "context": [""]
+        "context": ["batik_insang"]
       },
       {
         "tag": "batik_cendrawasih",
@@ -651,7 +651,7 @@
           "Rincian Batik Cendrawasih mencakup gambaran burung Cendrawasih yang terlihat pada batik, dengan keanggunan dan keindahan bulu yang digambarkan secara detail. Anda juga dapat mengamati kombinasi warna yang digunakan untuk menciptakan tampilan yang mencolok.",
           "Cara mengenal Batik Cendrawasih adalah dengan memperhatikan motif dan gambaran burung Cendrawasih yang menjadi ciri khasnya. Anda dapat mengenali bentuk dan detail bulu burung yang tergambar, serta mengamati keanggunan dan keindahan yang tercermin dalam batik ini."
         ],
-        "context": [""]
+        "context": ["batik_cendrawasih"]
       }
     ]
  }
